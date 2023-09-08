@@ -1,0 +1,64 @@
+body {
+  font-family: helvetica;
+
+}
+
+p{
+  font-family: helvetica;
+}
+
+h1,h2,h4{
+  font-family: 'Courier New';
+  color: red;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
+
+ul{
+  list-style-type: square;
+}
+
+ol{
+  font-family: lower-roman;
+}
+
+a:visited{
+  color:green;
+}
+a:link{
+  color:red;
+}
+
+img{
+  padding-left: 550px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.intro{
+  font-weight:bold;
+  border: solid 4px black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 50px;
+}
+
+.submit:hover{
+  background-color:red;
+}
+
+.submit:active{
+  background-color: green;
+}
+
+.even,.even1,.even2,.even3,.even4,.even5,.even6,.even7,.even8{
+  background-color: lightgray;
+}
+table:hover{
+  background-color: lightblue;
+}
